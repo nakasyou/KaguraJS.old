@@ -5,5 +5,16 @@ await esbuild.build({
     entryPoints: ['./src/index.ts'],
     bundle: true,
     outfile: './build/kagura.js',
+    target:'es6',
+    platform:"browser",
+    format:"esm",
+    minify: true,
+    banner:{
+      js:`/*
+* KaguraJS
+* Mit license
+* https://github.com/nakasyou/KaguraJS
+*/`
+    }
 });
 Deno.exit();

@@ -1,0 +1,4 @@
+run = "deno run -A build.ts"
+
+[nix]
+channel = "stable-22_11"
