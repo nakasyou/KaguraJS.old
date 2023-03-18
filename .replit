@@ -1,0 +1,4 @@
+run = "deno task watch"
+
+[nix]
+channel = "stable-22_11"
