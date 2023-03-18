@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../src/game/scene/index.ts", "../src/util/objectSafe.ts", "../src/app/index.ts"],
-  "sourcesContent": ["export default class{\n  constructor(){\n    this.init();\n  }\n  init(){\n    \n  }\n  update(){\n    \n  }\n  exit(){\n    \n  }\n}", "export default function(input:object,sample:object):object{\n  Object.keys(input).forEach(key=>{\n    sample[key]=input[key];\n  });\n  return sample;\n}", "import * as util from \"../util/index.ts\";\n\nexport default class App{\n  constructor(options:(object|null)){\n    options=util.objectSafe(options,{\n      element:document.createElement(\"canvas\")\n    });\n    this.options=options;\n  }\n  async run(): Promise<null>{\n    \n  }\n}"],
-  "mappings": ";;;;;6MAAA,WAAoB,CAClB,aAAa,CACX,KAAK,OAEP,MAAM,EAGN,QAAQ,EAGR,MAAM,IAVD,EAAP,ECAe,WAAS,EAAa,EAAqB,CACxD,cAAO,KAAK,GAAO,QAAQ,GAAK,CAC9B,EAAO,GAAK,EAAM,KAEb,ECFT,WAAwB,CACtB,YAAY,EAAsB,CAChC,EAAQ,AAAK,EAAW,EAAQ,CAC9B,QAAQ,SAAS,cAAc,YAEjC,KAAK,QAAQ,EAET,KAAoB,qCAPrB,EAAP",
-  "names": []
-}

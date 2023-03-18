@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "vary": "Accept-Encoding",
+    "location": "/x/dnt@0.33.1/mod.ts",
+    "via": "http/2 edgeproxy",
+    "server": "deno/gcp-us-east1",
+    "x-deno-warning": "Implicitly using latest version (0.33.1) for https://deno.land/x/dnt/mod.ts",
+    "date": "Sat, 18 Mar 2023 05:54:22 GMT",
+    "access-control-allow-origin": "*"
+  },
+  "url": "https://deno.land/x/dnt/mod.ts",
+  "now": {
+    "secs_since_epoch": 1679118862,
+    "nanos_since_epoch": 257875947
+  }
+}
