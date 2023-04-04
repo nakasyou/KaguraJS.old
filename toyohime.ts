@@ -40,4 +40,4 @@ export default new Toyohime({
   footer: {
     js: footer,
   }
-});
+})
