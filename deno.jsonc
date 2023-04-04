@@ -1,0 +1,17 @@
+{
+  "tasks":{
+    "npm":"deno run -A build.ts --npm",
+    "dev":"deno run -A build.ts --watch"
+  },
+  "lint": {
+    "files": {
+      "include": [
+        "src"
+      ]
+    },
+    "rules": {
+      "tags": ["recommended"],
+      "exclude": ["no-explicit-any"]
+    }
+  },
+}
