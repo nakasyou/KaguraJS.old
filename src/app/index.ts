@@ -1,7 +1,7 @@
 import * as util from "../util/index.ts";
 
 export default class App{
-  constructor(options:(object|null)){
+  constructor(options){
     options=util.objectSafe(options,{
       element:document.createElement("canvas")
     });
