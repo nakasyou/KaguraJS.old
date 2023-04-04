@@ -1,8 +1,8 @@
 import { Toyohime } from "https://deno.land/x/estoyohime@v0.2.0/mod.ts"
 
-const deps = {
+const deps = [
   ["test","v0.1.0","https://test.com","MIT license"]
-};
+]
 let footer = "";
 for(const dep of deps){
   footer+=`/*
