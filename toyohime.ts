@@ -12,7 +12,7 @@ for(const dep of deps){
  */
 `
 }
-export default new Toyohime({
+export const toyohime = new Toyohime({
   src: "./src/index.ts",
   esmDist: "./dist/esm.js",
   minEsmDist: "./dist/esm.min.js",
@@ -41,3 +41,5 @@ export default new Toyohime({
     js: footer,
   }
 })
+
+await toyohime.connect({})
