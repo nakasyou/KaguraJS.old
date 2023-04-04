@@ -1,3 +1,0 @@
-// Copyright 2018-2023 the Deno authors. All rights reserved. MIT license.
-export * as path from "https://deno.land/std@0.171.0/path/mod.ts";
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvZG50QDAuMzMuMS9saWIvdHJhbnNmb3JtLmRlcHMudHMiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gQ29weXJpZ2h0IDIwMTgtMjAyMyB0aGUgRGVubyBhdXRob3JzLiBBbGwgcmlnaHRzIHJlc2VydmVkLiBNSVQgbGljZW5zZS5cblxuZXhwb3J0ICogYXMgcGF0aCBmcm9tIFwiaHR0cHM6Ly9kZW5vLmxhbmQvc3RkQDAuMTcxLjAvcGF0aC9tb2QudHNcIjtcbiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSwwRUFBMEU7QUFFMUUsT0FBTyxLQUFLLElBQUksTUFBTSw0Q0FBNEMifQ==

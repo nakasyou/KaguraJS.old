@@ -1,3 +1,0 @@
-// @deno-types="./ts_morph_bootstrap.d.ts"
-export * from "./ts_morph_bootstrap.js";
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvdHNfbW9ycGhAMTcuMC4xL2Jvb3RzdHJhcC9tb2QudHMiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gQGRlbm8tdHlwZXM9XCIuL3RzX21vcnBoX2Jvb3RzdHJhcC5kLnRzXCJcbmV4cG9ydCAqIGZyb20gXCIuL3RzX21vcnBoX2Jvb3RzdHJhcC5qc1wiO1xuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDBDQUEwQztBQUMxQyxjQUFjLDBCQUEwQiJ9
