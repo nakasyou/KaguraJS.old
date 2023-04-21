@@ -25,7 +25,6 @@ export const toyohime = new Toyohime({
     version: "v0.1.0",
     description: await Deno.readTextFile("./README.md"),
   },
-  plugins: [],
   importmapPath: "./import_map.json",
   tsconfigPath: "./tsconfig.json",
   globalName: "kagura",
