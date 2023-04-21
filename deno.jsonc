@@ -1,7 +1,7 @@
 {
   "tasks":{
-    "npm":"deno run -A build.ts --npm",
-    "dev":"deno run -A build.ts --watch"
+    "npm":"deno run -A toyohime.ts --dnt",
+    "dev":"deno run -A toyohime.ts --watch"
   },
   "lint": {
     "files": {

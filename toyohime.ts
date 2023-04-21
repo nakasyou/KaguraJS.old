@@ -1,4 +1,4 @@
-import { Toyohime } from "https://deno.land/x/estoyohime@v0.2.0/mod.ts"
+import { Toyohime } from "https://deno.land/x/estoyohime@v0.3.0/mod.ts"
 
 const deps = [
   ["test","v0.1.0","https://test.com","MIT license"]
@@ -14,8 +14,6 @@ for(const dep of deps){
 }
 export const toyohime = new Toyohime({
   src: "./src/index.ts",
-  esmDist: "./dist/esm.js",
-  minEsmDist: "./dist/esm.min.js",
   readmeText: await Deno.readTextFile("./README.md"),
   readmePath: "README.md",
   licenseText: await Deno.readTextFile("./LICENSE"),
@@ -25,7 +23,7 @@ export const toyohime = new Toyohime({
     version: "v0.1.0",
     description: await Deno.readTextFile("./README.md"),
   },
-  importmapPath: "./import_map.json",
+  importmapPath: new URL("./import_map.json",import.meta.url),
   tsconfigPath: "./tsconfig.json",
   globalName: "kagura",
   banner: {
