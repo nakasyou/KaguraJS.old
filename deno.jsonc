@@ -2,7 +2,7 @@
   "tasks":{
     "npm":"deno run -A build.ts --npm",
     "dev":"deno run -A build.ts --watch",
-    "lint": "deno run -A https://deno.land/x/deneslint \"src/**/*.ts\""
+    "lint": "deno run -A https://deno.land/x/deneslint/lint.ts \"src/**/*.ts\""
   },
   "lint": {
     "files": {
