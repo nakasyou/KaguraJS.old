@@ -5,19 +5,18 @@ module.exports = {
   },
   "extends": [
     "eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended"
   ],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
   },
-  "parser": "@typescript-eslint/parser",
+  "parser": "npm:@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
   "plugins": [
-     "@typescript-eslint"
+     "npm:@typescript-eslint"
   ],
   "rules": {}
 };
